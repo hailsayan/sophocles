@@ -6,7 +6,7 @@ import { UsersService } from 'src/users/users.service';
 @Injectable()
 export class ProductsService {
   constructor(private readonly usersService: UsersService) {} //injecting
-  create(createProductDto: CreateProductDto) {
+  create() {
     return 'This action adds a new product';
   }
 
