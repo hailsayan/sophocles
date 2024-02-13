@@ -13,12 +13,16 @@ export class UsersService {
   ) {}
 
   findUserByEmail = async (email: string) => {
-    return await this.usersRepository.findOne({ email });
+    return await this.usersRepository.findOne({
+      where: { email: email },
+    });
   };
 
-  create(createUserDto: CreateUserDto) {
-    return 'This action adds a new user';
-  }
+  create = async (data: CreateUserDto) => {
+    const user = await this.usersRepository.create(data);
+    this.usersRepository.save(user);
+    return user;
+  };
 
   findAll = async () => {
     return await this.usersRepository.find();

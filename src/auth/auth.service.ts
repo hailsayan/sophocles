@@ -1,22 +1,30 @@
-import { Injectable } from '@nestjs/common';
-import { RegisterDto } from './dto/register';
-import { LoginDto } from './dto/login';
-import { InjectRepository } from '@nestjs/typeorm';
-import Users from 'src/users/entities/user.entity';
-import { Repository } from 'typeorm';
+import { HttpException, Injectable } from '@nestjs/common';
+import { RegisterDto } from './dto/register.dto';
+import { LoginDto } from './dto/login.dto';
 import { UsersService } from 'src/users/users.service';
+import * as bcrypt from 'bcrypt';
 
 @Injectable()
 export class AuthService {
-  constructor(
-    @InjectRepository(Users)
-    private readonly usersRepository: Repository<Users>,
-    private readonly userService: UsersService,
-  ) {}
-  register(registerDto: RegisterDto) {
-    const user = await this.userService
+  constructor(private readonly userService: UsersService) {}
+  async register(registerDto: RegisterDto) {
+    const user = await this.userService.findUserByEmail(registerDto.email);
+    if (user) {
+      throw new HttpException('user already exists', 400);
+    }
+    registerDto.password = await bcrypt.hash(registerDto.password, 10);
+    return await this.userService.create(registerDto);
   }
-  login(loginDto: LoginDto) {
-    return '';
+  async login(loginDto: LoginDto) {
+    const user = await this.userService.findUserByEmail(loginDto.email);
+    if (!user) {
+      throw new HttpException('user not found', 404);
+    }
+    const isPsswordMatch = await bcrypt.compare(
+      loginDto.password,
+      user.password,
+    );
+    console.log(isPsswordMatch);
+    if (!)
   }
 }
