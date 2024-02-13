@@ -12,6 +12,10 @@ export class UsersService {
     private readonly usersRepository: Repository<Users>,
   ) {}
 
+  findUserByEmail = async (email: string) => {
+    return await this.usersRepository.findOne({ email });
+  };
+
   create(createUserDto: CreateUserDto) {
     return 'This action adds a new user';
   }
