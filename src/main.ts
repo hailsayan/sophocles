@@ -7,7 +7,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.use(
     session({
-      secret: 's3cr3t',
+      secret: 'bimeh_abolfazl',
     }),
   );
   app.use(passport.initialize());
