@@ -15,10 +15,14 @@ import { UpdateProductDto } from './dto/update-product.dto';
 export class ProductsController {
   constructor(private readonly productsService: ProductsService) {}
 
-  // @Post()
-  // create(@Body() createProductDto: CreateProductDto) {
-  //   return this.productsService.create(createProductDto);
-  // }
+  @Post()
+  create(@Body() createProductDto: CreateProductDto) {
+    console.log(createProductDto.price);
+    if (createProductDto.price > 100) {
+      throw new Error('price is too high');
+    }
+    return { message: 'ok', data: createProductDto };
+  }
 
   @Get()
   findAll() {

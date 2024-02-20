@@ -6,12 +6,12 @@ export default class Users {
   id: number;
   @Column({ unique: true, nullable: false })
   email: string;
-  @Column({ length: 20, nullable: true })
+  @Column({ nullable: true })
   firstName: string;
-  @Column({ length: 20, nullable: true })
+  @Column({ nullable: true })
   lastName: string;
   @Column({ nullable: true })
   age: number;
-  @Column({ select: false, nullable: false })
+  @Column({ nullable: false })
   password: string;
 }
