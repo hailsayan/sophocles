@@ -7,6 +7,7 @@ import {
   Param,
   Delete,
   UseGuards,
+  Request,
 } from '@nestjs/common';
 import { ProductsService } from './products.service';
 import { CreateProductDto } from './dto/create-product.dto';
@@ -19,8 +20,8 @@ export class ProductsController {
 
   @Post()
   @UseGuards(JwtAuthGuard)
-  create(@Body() createProductDto: CreateProductDto) {
-    console.log(createProductDto.price);
+  create(@Body() createProductDto: CreateProductDto, @Request() request) {
+    console.log(request.user);
     if (createProductDto.price > 100) {
       throw new Error('price is too high');
     }
