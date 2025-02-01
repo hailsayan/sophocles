@@ -4,6 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/hailsayan/gogol/pkg/constant"
 	"github.com/hailsayan/gogol/pkg/dto"
 )
 
