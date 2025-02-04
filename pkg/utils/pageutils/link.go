@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/hailsayan/gogol/pkg/dto"
+	"github.com/hailsayan/sophocles/pkg/dto"
 )
 
 const (

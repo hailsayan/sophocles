@@ -1,3 +1,3 @@
-module github.com/hailsayan/gogol/gateway
+module github.com/hailsayan/sophocles/gateway
 
 go 1.23.4

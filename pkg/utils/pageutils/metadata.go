@@ -3,7 +3,7 @@ package pageutils
 import (
 	"math"
 
-	"github.com/hailsayan/gogol/pkg/dto"
+	"github.com/hailsayan/sophocles/pkg/dto"
 )
 
 func CreateMetaData[T any](items []T, page, limit int64) ([]T, *dto.PageMetaData) {

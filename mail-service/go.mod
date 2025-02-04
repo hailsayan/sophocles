@@ -1,3 +1,3 @@
-module github.com/hailsayan/gogol/mail-service
+module github.com/hailsayan/sophocles/mail-service
 
 go 1.23.4

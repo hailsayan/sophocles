@@ -1,4 +1,4 @@
-module github.com/hailsayan/gogol/pkg
+module github.com/hailsayan/sophocles/pkg
 
 go 1.23.4
 
