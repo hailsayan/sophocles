@@ -23,7 +23,7 @@ type PostgresOptions struct {
 
 func NewPostgres(opt *PostgresOptions) *sqlx.DB {
 	dsn := fmt.Sprintf(
-		"host=%s user=%s password=%s dbname=%s port=%d sslmode=%s TimeZone=Asia/Tehran",
+		"host=%s user=%s password=%s dbname=%s port=%d sslmode=%s TimeZone=Asia/Jakarta",
 		opt.Host,
 		opt.Username,
 		opt.Password,
