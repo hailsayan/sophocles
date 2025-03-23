@@ -8,4 +8,6 @@ const (
 	UnauthorizedErrorMessage       = "unauthorized"
 	RequestTimeoutErrorMessage     = "failed to process request in time, please try again"
 	ValidationErrorMessage         = "input validation error"
+	InvalidURLParamErrorMessage    = "expected a numeric value but got '%s'"
+	RequestDuplicateErrorMessage   = "request duplicate"
 )

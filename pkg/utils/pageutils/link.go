@@ -6,14 +6,14 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/hailsayan/sophocles/pkg/dto"
+	"github.com/jordanmarcelino/learn-go-microservices/pkg/dto"
 )
 
 const (
 	linkFormat = "%v%v?%v"
 )
 
-func CreateLinks(r *http.Request, page, size, totalItem, totalPage int) *dto.Links {
+func NewLinks(r *http.Request, page, size, totalItem, totalPage int) *dto.Links {
 	queries := r.URL.Query()
 	host := r.Host
 	path := r.URL.Path

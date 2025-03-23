@@ -4,9 +4,9 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/hailsayan/sophocles/pkg/constant"
-	"github.com/hailsayan/sophocles/pkg/httperror"
-	"github.com/hailsayan/sophocles/pkg/utils/jwtutils"
+	"github.com/jordanmarcelino/learn-go-microservices/pkg/constant"
+	"github.com/jordanmarcelino/learn-go-microservices/pkg/httperror"
+	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/jwtutils"
 )
 
 type AuthMiddleware struct {
@@ -36,6 +36,7 @@ func (m *AuthMiddleware) Authorization() gin.HandlerFunc {
 		}
 
 		ctx.Set(constant.CTX_USER_ID, claims.UserID)
+		ctx.Set(constant.CTX_EMAIL, claims.Email)
 		ctx.Next()
 	}
 }
