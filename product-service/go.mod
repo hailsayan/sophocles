@@ -1,4 +1,4 @@
-module github.com/hailsayan/sophocles/product-service
+module github.com/jordanmarcelino/learn-go-microservices/product-service
 
 go 1.23.4
 
@@ -9,7 +9,7 @@ require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-playground/validator/v10 v10.24.0
 	github.com/jmoiron/sqlx v1.4.0
-	github.com/hailsayan/sophocles/pkg v0.0.0-20250210162811-d1779ff7379f
+	github.com/jordanmarcelino/learn-go-microservices/pkg v0.0.0-20250210162811-d1779ff7379f
 	github.com/shopspring/decimal v1.4.0
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.19.0

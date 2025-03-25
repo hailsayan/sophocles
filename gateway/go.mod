@@ -1,4 +1,4 @@
-module github.com/hailsayan/sophocles/gateway
+module github.com/jordanmarcelino/learn-go-microservices/gateway
 
 go 1.23.4
 
@@ -6,7 +6,7 @@ require (
 	github.com/gin-contrib/cors v1.7.3
 	github.com/gin-contrib/gzip v1.2.2
 	github.com/gin-gonic/gin v1.10.0
-	github.com/hailsayan/sophocles/pkg v0.0.0-20250210162811-d1779ff7379f
+	github.com/jordanmarcelino/learn-go-microservices/pkg v0.0.0-20250210162811-d1779ff7379f
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.19.0
 )

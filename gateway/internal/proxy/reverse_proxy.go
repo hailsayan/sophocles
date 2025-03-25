@@ -7,9 +7,9 @@ import (
 	"net/url"
 
 	"github.com/gin-gonic/gin"
-	"github.com/hailsayan/sophocles/gateway/internal/log"
-	"github.com/hailsayan/sophocles/pkg/constant"
-	"github.com/hailsayan/sophocles/pkg/utils/ginutils"
+	"github.com/jordanmarcelino/learn-go-microservices/gateway/internal/log"
+	"github.com/jordanmarcelino/learn-go-microservices/pkg/constant"
+	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/ginutils"
 )
 
 func NewReverseProxy(target string) gin.HandlerFunc {
