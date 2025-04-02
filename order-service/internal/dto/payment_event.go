@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/jordanmarcelino/learn-go-microservices/order-service/internal/constant"
+import "github.com/hailsayan/sophocles/order-service/internal/constant"
 
 type PaymentReminderEvent struct {
 	OrderID int64  `json:"order_id"`

@@ -3,8 +3,8 @@ package dto
 import (
 	"fmt"
 
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/constant"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/entity"
+	"github.com/hailsayan/sophocles/order-service/internal/constant"
+	"github.com/hailsayan/sophocles/order-service/internal/entity"
 )
 
 type OrderCreatedEvent struct {

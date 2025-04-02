@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/jordanmarcelino/learn-go-microservices/order-service/internal/entity"
+import "github.com/hailsayan/sophocles/order-service/internal/entity"
 
 type PaymentResponse struct {
 	OrderID int64  `json:"order_id"`

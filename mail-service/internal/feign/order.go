@@ -7,10 +7,10 @@ import (
 	"net/http"
 
 	"github.com/bytedance/sonic"
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/constant"
-	. "github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/dto"
-	. "github.com/jordanmarcelino/learn-go-microservices/pkg/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/jwtutils"
+	"github.com/hailsayan/sophocles/mail-service/internal/constant"
+	. "github.com/hailsayan/sophocles/mail-service/internal/dto"
+	. "github.com/hailsayan/sophocles/pkg/dto"
+	"github.com/hailsayan/sophocles/pkg/utils/jwtutils"
 )
 
 type OrderClient interface {

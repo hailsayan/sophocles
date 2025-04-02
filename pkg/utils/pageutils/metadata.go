@@ -3,7 +3,7 @@ package pageutils
 import (
 	"math"
 
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/dto"
+	"github.com/hailsayan/sophocles/pkg/dto"
 )
 
 func NewMetadata(count, page, limit int64) *dto.PageMetaData {

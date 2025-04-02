@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/constant"
+	"github.com/hailsayan/sophocles/pkg/constant"
 )
 
 func NewInvalidURLParamError(param string) *ResponseError {

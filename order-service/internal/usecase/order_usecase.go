@@ -5,16 +5,16 @@ import (
 	"time"
 
 	"github.com/bsm/redislock"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/constant"
-	. "github.com/jordanmarcelino/learn-go-microservices/order-service/internal/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/entity"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/httperror"
-	. "github.com/jordanmarcelino/learn-go-microservices/pkg/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/mq"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/pageutils"
+	"github.com/hailsayan/sophocles/order-service/internal/constant"
+	. "github.com/hailsayan/sophocles/order-service/internal/dto"
+	"github.com/hailsayan/sophocles/order-service/internal/entity"
+	"github.com/hailsayan/sophocles/order-service/internal/httperror"
+	. "github.com/hailsayan/sophocles/pkg/dto"
+	"github.com/hailsayan/sophocles/pkg/mq"
+	"github.com/hailsayan/sophocles/pkg/utils/pageutils"
 
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/repository"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/utils/redisutils"
+	"github.com/hailsayan/sophocles/order-service/internal/repository"
+	"github.com/hailsayan/sophocles/order-service/internal/utils/redisutils"
 	"github.com/shopspring/decimal"
 )
 

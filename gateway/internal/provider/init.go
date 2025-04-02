@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/middleware"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/jwtutils"
+	"github.com/hailsayan/sophocles/pkg/middleware"
+	"github.com/hailsayan/sophocles/pkg/utils/jwtutils"
 )
 
 var (

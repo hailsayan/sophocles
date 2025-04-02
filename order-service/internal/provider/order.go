@@ -3,13 +3,13 @@ package provider
 import (
 	"github.com/IBM/sarama"
 	"github.com/gin-gonic/gin"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/constant"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/controller"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/mq"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/repository"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/usecase"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/database"
+	"github.com/hailsayan/sophocles/order-service/internal/config"
+	"github.com/hailsayan/sophocles/order-service/internal/constant"
+	"github.com/hailsayan/sophocles/order-service/internal/controller"
+	"github.com/hailsayan/sophocles/order-service/internal/mq"
+	"github.com/hailsayan/sophocles/order-service/internal/repository"
+	"github.com/hailsayan/sophocles/order-service/internal/usecase"
+	"github.com/hailsayan/sophocles/pkg/database"
 )
 
 func BootstrapOrder(cfg *config.Config, router *gin.Engine) {

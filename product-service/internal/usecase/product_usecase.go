@@ -3,13 +3,13 @@ package usecase
 import (
 	"context"
 
-	. "github.com/jordanmarcelino/learn-go-microservices/pkg/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/mq"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/pageutils"
-	. "github.com/jordanmarcelino/learn-go-microservices/product-service/internal/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/entity"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/httperror"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/repository"
+	. "github.com/hailsayan/sophocles/pkg/dto"
+	"github.com/hailsayan/sophocles/pkg/mq"
+	"github.com/hailsayan/sophocles/pkg/utils/pageutils"
+	. "github.com/hailsayan/sophocles/product-service/internal/dto"
+	"github.com/hailsayan/sophocles/product-service/internal/entity"
+	"github.com/hailsayan/sophocles/product-service/internal/httperror"
+	"github.com/hailsayan/sophocles/product-service/internal/repository"
 )
 
 type ProductUseCase interface {

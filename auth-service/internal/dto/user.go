@@ -3,7 +3,7 @@ package dto
 import (
 	"time"
 
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/entity"
+	"github.com/hailsayan/sophocles/auth-service/internal/entity"
 )
 
 type LoginResponse struct {

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/httperror"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/constant"
+	"github.com/hailsayan/sophocles/pkg/httperror"
+	"github.com/hailsayan/sophocles/product-service/internal/constant"
 )
 
 func NewProductNotFoundError() *httperror.ResponseError {

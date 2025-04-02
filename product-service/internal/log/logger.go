@@ -1,6 +1,6 @@
 package log
 
-import "github.com/jordanmarcelino/learn-go-microservices/pkg/logger"
+import "github.com/hailsayan/sophocles/pkg/logger"
 
 var Logger logger.Logger
 

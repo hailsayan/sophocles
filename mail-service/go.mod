@@ -1,10 +1,10 @@
-module github.com/jordanmarcelino/learn-go-microservices/mail-service
+module github.com/hailsayan/sophocles/mail-service
 
 go 1.23.4
 
 require (
 	github.com/bytedance/sonic v1.12.8
-	github.com/jordanmarcelino/learn-go-microservices/pkg v0.0.0-20250210162811-d1779ff7379f
+	github.com/hailsayan/sophocles/pkg v0.0.0-20250210162811-d1779ff7379f
 	github.com/rabbitmq/amqp091-go v1.10.0
 	github.com/shopspring/decimal v1.4.0
 	github.com/spf13/cobra v1.8.1

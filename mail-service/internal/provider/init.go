@@ -1,9 +1,9 @@
 package provider
 
 import (
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/database"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/smtputils"
+	"github.com/hailsayan/sophocles/mail-service/internal/config"
+	"github.com/hailsayan/sophocles/pkg/database"
+	"github.com/hailsayan/sophocles/pkg/utils/smtputils"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 

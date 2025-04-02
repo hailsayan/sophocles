@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/entity"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/pageutils"
+	"github.com/hailsayan/sophocles/order-service/internal/dto"
+	"github.com/hailsayan/sophocles/order-service/internal/entity"
+	"github.com/hailsayan/sophocles/pkg/utils/pageutils"
 )
 
 type OrderRepository interface {

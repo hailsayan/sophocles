@@ -1,4 +1,4 @@
-module github.com/jordanmarcelino/learn-go-microservices/auth-service
+module github.com/hailsayan/sophocles/auth-service
 
 go 1.23.4
 
@@ -8,7 +8,7 @@ require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-playground/validator/v10 v10.24.0
 	github.com/jmoiron/sqlx v1.4.0
-	github.com/jordanmarcelino/learn-go-microservices/pkg v0.0.0-20250210162811-d1779ff7379f
+	github.com/hailsayan/sophocles/pkg v0.0.0-20250210162811-d1779ff7379f
 	github.com/rabbitmq/amqp091-go v1.10.0
 	github.com/redis/go-redis/v9 v9.7.0
 	github.com/spf13/cobra v1.8.1

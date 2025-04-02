@@ -11,11 +11,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/validator/v10"
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/log"
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/provider"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/middleware"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/validationutils"
+	"github.com/hailsayan/sophocles/auth-service/internal/config"
+	"github.com/hailsayan/sophocles/auth-service/internal/log"
+	"github.com/hailsayan/sophocles/auth-service/internal/provider"
+	"github.com/hailsayan/sophocles/pkg/middleware"
+	"github.com/hailsayan/sophocles/pkg/utils/validationutils"
 )
 
 type HttpServer struct {

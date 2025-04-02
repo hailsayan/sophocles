@@ -9,11 +9,11 @@ import (
 
 	"github.com/IBM/sarama"
 	"github.com/bytedance/sonic"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/constant"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/log"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/repository"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/mq"
+	"github.com/hailsayan/sophocles/order-service/internal/constant"
+	"github.com/hailsayan/sophocles/order-service/internal/dto"
+	"github.com/hailsayan/sophocles/order-service/internal/log"
+	"github.com/hailsayan/sophocles/order-service/internal/repository"
+	"github.com/hailsayan/sophocles/pkg/mq"
 )
 
 type ProductDeletedConsumer struct {

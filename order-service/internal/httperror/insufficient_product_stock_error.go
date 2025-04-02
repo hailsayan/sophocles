@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/constant"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/httperror"
+	"github.com/hailsayan/sophocles/order-service/internal/constant"
+	"github.com/hailsayan/sophocles/pkg/httperror"
 )
 
 func NewInsufficientProductStockError() *httperror.ResponseError {

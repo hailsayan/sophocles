@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/go-playground/validator/v10"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/constant"
+	"github.com/hailsayan/sophocles/pkg/constant"
 )
 
 func TagToMsg(fe validator.FieldError) string {

@@ -1,4 +1,4 @@
-module github.com/jordanmarcelino/learn-go-microservices/pkg
+module github.com/hailsayan/sophocles/pkg
 
 go 1.23.4
 

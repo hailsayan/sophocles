@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/log"
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/provider"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/mq"
+	"github.com/hailsayan/sophocles/mail-service/internal/config"
+	"github.com/hailsayan/sophocles/mail-service/internal/log"
+	"github.com/hailsayan/sophocles/mail-service/internal/provider"
+	"github.com/hailsayan/sophocles/pkg/mq"
 )
 
 type AMQPServer struct {

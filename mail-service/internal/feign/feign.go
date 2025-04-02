@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/jwtutils"
+	"github.com/hailsayan/sophocles/pkg/utils/jwtutils"
 )
 
 var (

@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/entity"
+	"github.com/hailsayan/sophocles/auth-service/internal/entity"
 )
 
 type VerificationRepository interface {

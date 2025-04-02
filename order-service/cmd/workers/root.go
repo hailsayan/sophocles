@@ -7,10 +7,10 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/log"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/provider"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/logger"
+	"github.com/hailsayan/sophocles/order-service/internal/config"
+	"github.com/hailsayan/sophocles/order-service/internal/log"
+	"github.com/hailsayan/sophocles/order-service/internal/provider"
+	"github.com/hailsayan/sophocles/pkg/logger"
 	"github.com/spf13/cobra"
 )
 

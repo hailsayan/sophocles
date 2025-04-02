@@ -3,8 +3,8 @@ package workers
 import (
 	"context"
 
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/server"
+	"github.com/hailsayan/sophocles/mail-service/internal/config"
+	"github.com/hailsayan/sophocles/mail-service/internal/server"
 )
 
 func runAMQPWorker(cfg *config.Config, ctx context.Context) {

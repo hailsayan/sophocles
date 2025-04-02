@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/config"
+	"github.com/hailsayan/sophocles/pkg/config"
 	"gopkg.in/gomail.v2"
 )
 

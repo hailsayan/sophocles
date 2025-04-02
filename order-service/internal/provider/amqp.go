@@ -1,9 +1,9 @@
 package provider
 
 import (
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/mq"
-	pmq "github.com/jordanmarcelino/learn-go-microservices/pkg/mq"
+	"github.com/hailsayan/sophocles/order-service/internal/config"
+	"github.com/hailsayan/sophocles/order-service/internal/mq"
+	pmq "github.com/hailsayan/sophocles/pkg/mq"
 )
 
 func BootstrapAMQP(cfg *config.Config) []pmq.AMQPConsumer {

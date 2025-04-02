@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/server"
+	"github.com/hailsayan/sophocles/order-service/internal/config"
+	"github.com/hailsayan/sophocles/order-service/internal/server"
 )
 
 func runHttpWorker(cfg *config.Config, ctx context.Context, wg *sync.WaitGroup) {

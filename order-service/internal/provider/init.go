@@ -3,9 +3,9 @@ package provider
 import (
 	"github.com/bsm/redislock"
 	"github.com/jmoiron/sqlx"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/repository"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/database"
+	"github.com/hailsayan/sophocles/order-service/internal/config"
+	"github.com/hailsayan/sophocles/order-service/internal/repository"
+	"github.com/hailsayan/sophocles/pkg/database"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"github.com/redis/go-redis/v9"
 )

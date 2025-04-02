@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/logger"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/log"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/provider"
+	"github.com/hailsayan/sophocles/pkg/logger"
+	"github.com/hailsayan/sophocles/product-service/internal/config"
+	"github.com/hailsayan/sophocles/product-service/internal/log"
+	"github.com/hailsayan/sophocles/product-service/internal/provider"
 	"github.com/spf13/cobra"
 )
 

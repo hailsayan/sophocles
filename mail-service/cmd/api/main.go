@@ -1,6 +1,6 @@
 package main
 
-import "github.com/jordanmarcelino/learn-go-microservices/mail-service/cmd/workers"
+import "github.com/hailsayan/sophocles/mail-service/cmd/workers"
 
 func main() {
 	workers.Start()

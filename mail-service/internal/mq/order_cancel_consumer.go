@@ -8,12 +8,12 @@ import (
 	"time"
 
 	"github.com/bytedance/sonic"
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/constant"
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/feign"
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/log"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/mq"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/smtputils"
+	"github.com/hailsayan/sophocles/mail-service/internal/constant"
+	"github.com/hailsayan/sophocles/mail-service/internal/dto"
+	"github.com/hailsayan/sophocles/mail-service/internal/feign"
+	"github.com/hailsayan/sophocles/mail-service/internal/log"
+	"github.com/hailsayan/sophocles/pkg/mq"
+	"github.com/hailsayan/sophocles/pkg/utils/smtputils"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 

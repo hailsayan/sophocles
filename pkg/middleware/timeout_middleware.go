@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/httperror"
+	"github.com/hailsayan/sophocles/pkg/httperror"
 )
 
 func RequestTimeout(timeoutPeriod int) gin.HandlerFunc {

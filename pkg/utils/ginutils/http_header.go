@@ -4,7 +4,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/constant"
+	"github.com/hailsayan/sophocles/pkg/constant"
 )
 
 func GetXUserID(ctx *gin.Context) (int64, bool) {

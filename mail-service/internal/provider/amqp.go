@@ -1,10 +1,10 @@
 package provider
 
 import (
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/feign"
-	"github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/mq"
-	pmq "github.com/jordanmarcelino/learn-go-microservices/pkg/mq"
+	"github.com/hailsayan/sophocles/mail-service/internal/config"
+	"github.com/hailsayan/sophocles/mail-service/internal/feign"
+	"github.com/hailsayan/sophocles/mail-service/internal/mq"
+	pmq "github.com/hailsayan/sophocles/pkg/mq"
 )
 
 func BootstrapAMQP(cfg *config.Config) []pmq.AMQPConsumer {

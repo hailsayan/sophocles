@@ -3,12 +3,12 @@ package provider
 import (
 	"github.com/IBM/sarama"
 	"github.com/gin-gonic/gin"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/database"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/constant"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/controller"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/mq"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/usecase"
+	"github.com/hailsayan/sophocles/pkg/database"
+	"github.com/hailsayan/sophocles/product-service/internal/config"
+	"github.com/hailsayan/sophocles/product-service/internal/constant"
+	"github.com/hailsayan/sophocles/product-service/internal/controller"
+	"github.com/hailsayan/sophocles/product-service/internal/mq"
+	"github.com/hailsayan/sophocles/product-service/internal/usecase"
 )
 
 func BootstrapProduct(cfg *config.Config, router *gin.Engine) {

@@ -1,7 +1,7 @@
 package dto
 
 import (
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/entity"
+	"github.com/hailsayan/sophocles/product-service/internal/entity"
 	"github.com/shopspring/decimal"
 )
 

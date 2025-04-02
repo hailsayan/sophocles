@@ -4,12 +4,12 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/middleware"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/usecase"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/httperror"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/ginutils"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/pageutils"
+	"github.com/hailsayan/sophocles/order-service/internal/dto"
+	"github.com/hailsayan/sophocles/order-service/internal/middleware"
+	"github.com/hailsayan/sophocles/order-service/internal/usecase"
+	"github.com/hailsayan/sophocles/pkg/httperror"
+	"github.com/hailsayan/sophocles/pkg/utils/ginutils"
+	"github.com/hailsayan/sophocles/pkg/utils/pageutils"
 )
 
 type OrderController struct {

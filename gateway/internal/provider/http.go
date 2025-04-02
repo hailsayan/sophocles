@@ -2,8 +2,8 @@ package provider
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/jordanmarcelino/learn-go-microservices/gateway/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/gateway/internal/controller"
+	"github.com/hailsayan/sophocles/gateway/internal/config"
+	"github.com/hailsayan/sophocles/gateway/internal/controller"
 )
 
 func BootstrapHttp(cfg *config.Config, router *gin.Engine) {

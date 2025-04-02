@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/bytedance/sonic"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/constant"
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/log"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/mq"
+	"github.com/hailsayan/sophocles/order-service/internal/constant"
+	"github.com/hailsayan/sophocles/order-service/internal/log"
+	"github.com/hailsayan/sophocles/pkg/mq"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 

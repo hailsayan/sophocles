@@ -6,7 +6,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/config"
+	"github.com/hailsayan/sophocles/pkg/config"
 )
 
 type JwtUtil interface {

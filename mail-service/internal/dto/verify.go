@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/jordanmarcelino/learn-go-microservices/mail-service/internal/constant"
+import "github.com/hailsayan/sophocles/mail-service/internal/constant"
 
 type SendVerificationEvent struct {
 	Email string `json:"email"`

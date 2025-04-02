@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/mq"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/log"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/provider"
+	"github.com/hailsayan/sophocles/pkg/mq"
+	"github.com/hailsayan/sophocles/product-service/internal/config"
+	"github.com/hailsayan/sophocles/product-service/internal/log"
+	"github.com/hailsayan/sophocles/product-service/internal/provider"
 )
 
 type KafkaServer struct {

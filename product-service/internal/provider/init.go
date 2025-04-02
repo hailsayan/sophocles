@@ -2,9 +2,9 @@ package provider
 
 import (
 	"github.com/jmoiron/sqlx"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/database"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/repository"
+	"github.com/hailsayan/sophocles/pkg/database"
+	"github.com/hailsayan/sophocles/product-service/internal/config"
+	"github.com/hailsayan/sophocles/product-service/internal/repository"
 )
 
 var (

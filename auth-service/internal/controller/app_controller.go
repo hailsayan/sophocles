@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/dto"
+	"github.com/hailsayan/sophocles/pkg/dto"
 )
 
 type AppController struct {

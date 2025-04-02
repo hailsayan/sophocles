@@ -2,9 +2,9 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/usecase"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/ginutils"
+	"github.com/hailsayan/sophocles/auth-service/internal/dto"
+	"github.com/hailsayan/sophocles/auth-service/internal/usecase"
+	"github.com/hailsayan/sophocles/pkg/utils/ginutils"
 )
 
 type UserController struct {

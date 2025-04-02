@@ -10,10 +10,10 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
-	"github.com/jordanmarcelino/learn-go-microservices/gateway/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/gateway/internal/log"
-	"github.com/jordanmarcelino/learn-go-microservices/gateway/internal/provider"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/middleware"
+	"github.com/hailsayan/sophocles/gateway/internal/config"
+	"github.com/hailsayan/sophocles/gateway/internal/log"
+	"github.com/hailsayan/sophocles/gateway/internal/provider"
+	"github.com/hailsayan/sophocles/pkg/middleware"
 )
 
 type HttpServer struct {

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/constant"
+	"github.com/hailsayan/sophocles/pkg/constant"
 )
 
 func NewTimeoutError() *ResponseError {

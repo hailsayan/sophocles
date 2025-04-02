@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/httperror"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/logger"
+	"github.com/hailsayan/sophocles/pkg/httperror"
+	"github.com/hailsayan/sophocles/pkg/logger"
 )
 
 func Logger(logger logger.Logger) gin.HandlerFunc {

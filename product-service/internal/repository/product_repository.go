@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/utils/pageutils"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/entity"
+	"github.com/hailsayan/sophocles/pkg/utils/pageutils"
+	"github.com/hailsayan/sophocles/product-service/internal/dto"
+	"github.com/hailsayan/sophocles/product-service/internal/entity"
 )
 
 type ProductRepository interface {

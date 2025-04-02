@@ -3,8 +3,8 @@ package workers
 import (
 	"context"
 
-	"github.com/jordanmarcelino/learn-go-microservices/gateway/internal/config"
-	"github.com/jordanmarcelino/learn-go-microservices/gateway/internal/server"
+	"github.com/hailsayan/sophocles/gateway/internal/config"
+	"github.com/hailsayan/sophocles/gateway/internal/server"
 )
 
 func runHttpWorker(cfg *config.Config, ctx context.Context) {

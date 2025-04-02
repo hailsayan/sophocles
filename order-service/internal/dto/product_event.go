@@ -3,7 +3,7 @@ package dto
 import (
 	"fmt"
 
-	"github.com/jordanmarcelino/learn-go-microservices/order-service/internal/entity"
+	"github.com/hailsayan/sophocles/order-service/internal/entity"
 	"github.com/shopspring/decimal"
 )
 

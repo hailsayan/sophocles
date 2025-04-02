@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/constant"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/httperror"
+	"github.com/hailsayan/sophocles/auth-service/internal/constant"
+	"github.com/hailsayan/sophocles/pkg/httperror"
 )
 
 func NewUserAlreadyVerifiedError() *httperror.ResponseError {

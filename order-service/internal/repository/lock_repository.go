@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/bsm/redislock"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/httperror"
+	"github.com/hailsayan/sophocles/pkg/httperror"
 )
 
 type LockRepository interface {

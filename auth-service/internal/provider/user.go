@@ -2,10 +2,10 @@ package provider
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/controller"
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/mq"
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/repository"
-	"github.com/jordanmarcelino/learn-go-microservices/auth-service/internal/usecase"
+	"github.com/hailsayan/sophocles/auth-service/internal/controller"
+	"github.com/hailsayan/sophocles/auth-service/internal/mq"
+	"github.com/hailsayan/sophocles/auth-service/internal/repository"
+	"github.com/hailsayan/sophocles/auth-service/internal/usecase"
 )
 
 func BootstrapUser(router *gin.Engine) {

@@ -9,11 +9,11 @@ import (
 
 	"github.com/IBM/sarama"
 	"github.com/bytedance/sonic"
-	"github.com/jordanmarcelino/learn-go-microservices/pkg/mq"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/constant"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/dto"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/log"
-	"github.com/jordanmarcelino/learn-go-microservices/product-service/internal/repository"
+	"github.com/hailsayan/sophocles/pkg/mq"
+	"github.com/hailsayan/sophocles/product-service/internal/constant"
+	"github.com/hailsayan/sophocles/product-service/internal/dto"
+	"github.com/hailsayan/sophocles/product-service/internal/log"
+	"github.com/hailsayan/sophocles/product-service/internal/repository"
 )
 
 type OrderCancelledConsumer struct {
